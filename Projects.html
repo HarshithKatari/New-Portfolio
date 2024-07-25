@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshith-Web Developer,Programmer</title>
+    <style>
+        .Projectpage{
+            display:flex;
+            flex-direction: column;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+          }
+          
+          header {
+            background-color: #0c12c1;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+          }
+
+          
+          .project-details h2, .project-screenshots h2, .project-links h2 {
+            color: #333;
+            margin-bottom: 10px;
+          }
+          
+          .project-details p, .project-links p {
+            color: black;
+            margin-bottom: 20px;
+            margin-left:40px;
+            font-size: larger;
+            font-weight: 300;
+          }
+          
+          
+          
+          .project-screenshots {
+            margin-bottom: 20px;
+            display:flex;
+          }
+          
+          
+          
+          .project-links ul {
+            list-style: none;
+            padding: 0;
+          }
+          
+          .project-links li {
+            margin-bottom: 10px;
+          }
+          
+          .project-links a {
+            color: #333;
+            text-decoration: none;
+          }
+          
+          footer {
+            background-color: #0c12c1;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-size: 12px;
+          }
+          @media (max-width:395px) {
+            * {
+              /*background-color:white*/;
+            }
+            /*.sidebar{
+                transform:translate(-443px,0px);
+                position:absolute;
+            }*/
+           .footer{
+            font-size:5px;
+           }
+           .project-links a{
+            font-size:5px;
+           }
+           .project-links li{
+            margin-bottom:1px;
+            
+
+           }
+          
+           .project-screenshots {
+            margin-top: 3px;
+            display:flex;
+            flex-wrap:wrap;
+          }
+          header {
+            background-color: #0c12c1;
+            color: #fff;
+            padding: 2px;
+            text-align: center;
+            font-size: 10px;
+          }
+          @media (max-width: 600px) {
+            .screenshot img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        .screenshot{
+          width:100vw;
+          height:500px;
+          display:flex;
+          background-color: black;
+
+        }
+        .image1{
+          width:40%;
+          height:50%;
+          background-image: url("swiggy.png");
+          background-size: cover;
+        }
+
+        @media (max-width: 400px) {
+            header {
+                padding: 10px;
+                font-size: 18px;
+            }
+
+            .project-details p,
+            .project-links p {
+                font-size: 14px;
+            }
+
+            .project-links a {
+                font-size: 14px;
+            }
+
+           
+        }
+       .image{
+        display: flex;
+        flex-wrap: wrap;
+        width:100vw;
+       }
+        
+          
+          
+    </style>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            
+            <nav>
+                <ul>
+                <li><a href="\index.html">Home</a></li>
+                <li><a href="\Aboutme.html">About me</a></li>
+
+                <li><a href="\Projects.html">Projects</a></li>
+                <li><a href="\Contactus.html">Contact us</a></li>
+            </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="ham2.png" width="23" height="20px" alt="">
+                <img class="cross" src="cross.png" width="23" height="20px" alt="">
+            </div>
+            <div class="Projectpage">
+                <header>
+                    <h1>Projects</h1>
+                    
+                  </header>
+                  <section class="project-details">
+                    <h2>About the Project</h2>
+                    <p>1.The Creative Portfolio Showcase is a personalized website designed to exhibit your skills, projects, and
+                      achievements to potential clients or employers. This project utilizes HTML, CSS, and JavaScript to create
+                      an interactive and visually appealing online portfolio.</p>
+                    <p>2.The Amazon Replica project is a static webpage designed to mimic the layout and functionality of the
+                      Amazon e-commerce platform using only HTML and CSS</p>
+                    <p>3.The Swiggy Replica Project is a webpage designed to mimic the layout and functionality of the Swiggy
+                      e-commerce platform. It is built using HTML, CSS, JavaScript, PHP, and MySQL</p>
+                      <p>4.The Simple Currency Converter project is a web application that enables users to convert currencies
+                        using real-time exchange rates sourced from a public API. Built with HTML, CSS, and JavaScript, this
+                        project offers a straightforward and intuitive interface for users to input an amount in one currency and
+                        view its equivalent value in another currency</p>
+                  </section>
+              
+                  
+                  <section class="project-links" style="margin-top:20px;">
+                    <h2>Project Links</h2>
+                    <ul style="margin:40px;text-decoration: underline;">
+                      <li><a href="https://github.com/HarshithKatari/Portfolio" target="_blank" style="color:blue;">Portfolio</a></li>
+                      <li><a href="https://github.com/HarshithKatari/Amazon-clone target="_blank"  style="color:blue;">Static webpage of amazon</a></li>
+                      <li><a href="https://github.com/HarshithKatari/Swiggy" target="_blank"  style="color:blue;">Swiggy Clone</a></li>
+                      <li><a href="https://github.com/HarshithKatari/Currency-Converter" target="_blank"  style="color:blue;">Currency Converter</a></li>
+                    </ul>
+                  </section>
+                  <div class="bigbox">
+                      <h1>ScreenShots</h1><br>
+                      <div class="image">
+                      <img src="swiggy.png" width="500px" height="300px" style="margin:30px;">
+                      <img src="amazon.png" width="500px" height="300px" style="margin:30px;">
+                      <img src="portfolio.png" width="500px" height="300px" style="margin:30px;">
+                      <img src="currency.png" width="500px" height="300px" style="margin:30px;">
+                      </div>
+                      
+                  </div>
+                  <footer>
+                    <p>&copy; 2023 K HARSHITH</p>
+                  </footer>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
