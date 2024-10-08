@@ -10,18 +10,16 @@ Summary:
 Dedicated and skilled FrontEnd Developer with a passion for creating user-friendly and efficient web applications. Proficient in front-end development, experienced in working with various technologies and frameworks. Strong problem-solving abilities and a keen eye for detail. Committed to delivering high-quality code and continuously improving skills.
 
 Skills:
-- Programming Languages: JavaScript, HTML, CSS, Python, Java
-- Front-end Technologies: React,Bootstrap
-- Back-end Technologies: PHP,Java
+- Programming Languages: JavaScript, HTML, CSS, Basics of Python, Java
+- Front-end Technologies:Basics of React,Bootstrap
 - Database Systems: MySQL
-- Version Control: Git, GitHub
 
 Education:
 BTech in Computer Science
 Sree Vidyanikethan Engineering College
 
 Certifications:
-- Full Stack Web Development Certification-Immensphere
+- Web Development-Immensphere
 - Datastructures and Algorithms-Infosys Springboard
 -Java(basic)-Hackerrank
 
@@ -31,7 +29,3 @@ Projects:
 - Static web page of Swiggy:Created a webpage of amazon using HTML,CSS,Javascript.
 - Currency Converter:Converts currency of one nation to currency of another nation.
 
-References:
-Available upon request
-
-Note: The resume provided is a fictional representation of a basic full stack web developer resume. Feel free to modify and adapt it to your specific qualifications, experiences, and personal information.
